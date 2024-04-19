@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+
+    <ImageView
+        android:id="@+id/imageViewWelcome"
+        android:layout_width="296dp"
+        android:layout_height="265dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="67dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cloudy" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="161dp"
+        android:paddingStart="40dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="20dp"
+        android:text="Weather Forecasts"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="48sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonGetStarted"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="50dp"
+        android:paddingStart="40dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="20dp"
+        android:text="Get Started" />
+</RelativeLayout>
